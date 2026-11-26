@@ -1,9 +1,9 @@
 /* PropBrain site settings and small page behaviours. The pages still work without this file. */
 var PROPBRAIN = {
-  // Lemon Squeezy checkout for one lease. Leave empty to send the Single button to email instead.
-  singleCheckoutUrl: "https://propbrainai.lemonsqueezy.com/checkout/buy/69ac4bd6-02af-47e8-a9ee-01b2ef952767",
-  // Lemon Squeezy checkout for the 5-lease pack. Leave empty to send the Pack button to email instead.
-  packCheckoutUrl: "https://propbrainai.lemonsqueezy.com/checkout/buy/98496ba0-a455-4615-9e36-715f38886e2c",
+  // Checkout link for one lease. Leave empty to send the Single button to email instead.
+  singleCheckoutUrl: "",
+  // Checkout link for the 5-lease pack. Leave empty to send the Pack button to email instead.
+  packCheckoutUrl: "",
   // Shown on the Pack card. Only say "Most popular" once real sales show it.
   packBadge: "Best value",
   email: "propbrainai@gmail.com",
